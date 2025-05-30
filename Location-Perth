@@ -1,0 +1,37 @@
+name: Perth Warehouse
+address: 152 Industrial Road, Perth, ON K7H 3P2
+phone: 613-267-4921
+capacity_sqft: 170000
+dock_doors: 10
+features:
+  - Fully racked facility
+  - Secure fenced yard
+  - Food-grade certified (SQF)
+  - Real-time inventory management
+  - 24/7 video surveillance
+certifications:
+  - SQF Certified
+  - Food Grade
+services_offered:
+  - Warehousing
+  - Pick and Pack
+  - Kitting & Assembly
+  - Distribution
+  - Inventory Management
+  - Rework & Quality Inspections
+  - Local Shunting Services
+location_code: PER
+schema_metadata:
+  "@type": "Place"
+  name: "Wills Transfer Perth"
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "152 Industrial Road"
+    addressLocality: "Perth"
+    addressRegion: "ON"
+    postalCode: "K7H 3P2"
+    addressCountry: "CA"
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 44.9051
+    longitude: -76.2482
