@@ -6,28 +6,33 @@ dock_doors: 40
 features:
   - Refrigerated storage (40,000 sq. ft.)
   - Rail siding access
-  - Advanced security systems
   - C-TPAT compliant
-    gated yard
+  - Advanced security systems
+  - Food-grade and CGC certified
 certifications:
+  - SQF Certified
   - Controlled Goods Certified
-  -  Security Cleared Personnel (Level 1 & 2)
+  - C-TPAT
 services_offered:
-  - Warehousing
-  - Pick and Pack
+  - Refrigerated Storage
   - Inventory Management
+  - Pick and Pack
+  - Rework & Inspection
   - Shunting Services
-commodities handled
-    Consumer goods
-    Forestry
-    Government
-    Mining
-    Oil and Gas
-    Pharmaceuticals
-    Raw Materials and Finished Goods
-    Technology
-Onsite equipment
-    Material handling equipment
-    Paper roll clamps
-    Shrink wrap machines
-    Warehouse Management System (WMS) with customer access to real-time inventory
+  - Distribution
+location_code: BRK
+schema_metadata:
+  "@type": "Place"
+  name: "Wills Transfer Brockville"
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "2210 Parkedale Avenue"
+    addressLocality: "Brockville"
+    addressRegion: "ON"
+    postalCode: "K6V 5V2"
+    addressCountry: "CA"
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 44.6116
+    longitude: -75.6975
+
