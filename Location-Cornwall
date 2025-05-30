@@ -1,0 +1,33 @@
+name: Cornwall Warehouse
+address: 2901 Marleau Avenue, Cornwall, ON K6H 6B5
+phone: 613-933-2995
+capacity_sqft: 180000
+dock_doors: 12
+features:
+  - Strategic US border proximity
+  - High-clearance warehouse
+  - Secure perimeter and surveillance
+  - Cross-border logistics capabilities
+certifications:
+  - C-TPAT Compliant
+services_offered:
+  - Warehousing
+  - Cross-border Shipping
+  - Distribution
+  - Pick and Pack
+  - Freight Handling
+location_code: CRN
+schema_metadata:
+  "@type": "Place"
+  name: "Wills Transfer Cornwall"
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "2901 Marleau Avenue"
+    addressLocality: "Cornwall"
+    addressRegion: "ON"
+    postalCode: "K6H 6B5"
+    addressCountry: "CA"
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 45.0135
+    longitude: -74.7196
