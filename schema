@@ -1,1 +1,105 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Wills Transfer Limited",
+  "url": "https://www.willstransfer.com",
+  "logo": "https://www.willstransfer.com/wp-content/uploads/2022/03/wills-transfer-logo.svg",
+  "sameAs": [
+    "https://www.linkedin.com/company/wills-transfer-limited/",
+    "https://www.facebook.com/WillsTransferLtd/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-613-267-4921",
+    "contactType": "Customer Service",
+    "areaServed": "CA"
+  },
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Warehousing",
+      "serviceType": [
+        "Bonded Warehousing",
+        "Refrigerated Storage",
+        "Food-Grade Storage",
+        "Inventory Management",
+        "Pick and Pack",
+        "Kitting and Assembly",
+        "Rework and Inspection"
+      ],
+      "areaServed": "Ontario, Canada"
+    },
+    {
+      "@type": "Organization",
+      "name": "Transportation",
+      "serviceType": [
+        "Shunting Services",
+        "Local Delivery",
+        "Cross-border Freight"
+      ],
+      "areaServed": "Ontario, Canada"
+    }
+  ],
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Perth Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "152 Industrial Road",
+        "addressLocality": "Perth",
+        "addressRegion": "ON",
+        "postalCode": "K7H 3P2",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Brockville Distribution Centre",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2210 Parkedale Avenue",
+        "addressLocality": "Brockville",
+        "addressRegion": "ON",
+        "postalCode": "K6V 5V2",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Smiths Falls Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "85 Lorne Street",
+        "addressLocality": "Smiths Falls",
+        "addressRegion": "ON",
+        "postalCode": "K7A 3K8",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Ottawa Warehouse (Stittsville)",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "145 Iber Road",
+        "addressLocality": "Stittsville",
+        "addressRegion": "ON",
+        "postalCode": "K2S 1E7",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Cornwall Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2901 Marleau Avenue",
+        "addressLocality": "Cornwall",
+        "addressRegion": "ON",
+        "postalCode": "K6H 6B5",
+        "addressCountry": "CA"
+      }
+    }
+  ]
+}
