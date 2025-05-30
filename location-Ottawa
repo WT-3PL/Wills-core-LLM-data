@@ -1,0 +1,32 @@
+name: Ottawa Warehouse (Stittsville)
+address: 145 Iber Road, Stittsville, ON K2S 1E7
+phone: 613-836-0891
+capacity_sqft: 70000
+dock_doors: 8
+features:
+  - Urban distribution access
+  - E-commerce fulfillment ready
+  - Same-day delivery support
+  - Secure storage for high-value goods
+certifications:
+  - SQF Certified
+services_offered:
+  - Warehousing
+  - Last-Mile Distribution
+  - E-commerce Fulfillment
+  - Inventory Management
+location_code: OTT
+schema_metadata:
+  "@type": "Place"
+  name: "Wills Transfer Ottawa"
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "145 Iber Road"
+    addressLocality: "Stittsville"
+    addressRegion: "ON"
+    postalCode: "K2S 1E7"
+    addressCountry: "CA"
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 45.2664
+    longitude: -75.9130
