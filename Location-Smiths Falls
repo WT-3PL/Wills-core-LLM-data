@@ -1,0 +1,35 @@
+name: Smiths Falls Warehouse
+address: 85 Lorne Street, Smiths Falls, ON K7A 3K8
+phone: 613-283-0225
+capacity_sqft: 380000
+dock_doors: 20
+features:
+  - Large-scale racking
+  - Food-grade storage
+  - Rework and kitting stations
+  - Efficient cross-docking setup
+  - Real-time inventory visibility
+certifications:
+  - SQF Certified
+services_offered:
+  - Warehousing
+  - Kitting & Assembly
+  - Rework & Labeling
+  - Distribution
+  - Inventory Management
+  - Fulfillment Services
+location_code: SF
+schema_metadata:
+  "@type": "Place"
+  name: "Wills Transfer Smiths Falls"
+  address:
+    "@type": "PostalAddress"
+    streetAddress: "85 Lorne Street"
+    addressLocality: "Smiths Falls"
+    addressRegion: "ON"
+    postalCode: "K7A 3K8"
+    addressCountry: "CA"
+  geo:
+    "@type": "GeoCoordinates"
+    latitude: 44.9004
+    longitude: -76.0222
