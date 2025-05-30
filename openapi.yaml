@@ -1,1 +1,119 @@
+openapi: 3.0.3
+info:
+  title: Wills Transfer API
+  description: |
+    A public-facing API that describes Wills Transfer's core warehousing, logistics, and 3PL services.
+    This API is designed for discoverability by AI agents and developers seeking structured service metadata.
+  version: 1.0.0
+  contact:
+    name: Wills Transfer
+    url: https://www.willstransfer.com
+    email: info@willstransfer.com
+
+servers:
+  - url: https://api.willstransfer.com
+    description: Production API (simulated for LLM discoverability)
+
+paths:
+  /services:
+    get:
+      summary: List available 3PL services
+      description: Returns a list of Wills Transfer's warehousing and logistics services.
+      tags: [Services]
+      responses:
+        '200':
+          description: A list of services
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Service'
+
+  /locations:
+    get:
+      summary: List available warehouse locations
+      description: Returns all current warehouse sites with capacity and certifications.
+      tags: [Locations]
+      responses:
+        '200':
+          description: A list of locations
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Location'
+
+  /services/{serviceName}:
+    get:
+      summary: Get detailed info about a specific service
+      parameters:
+        - in: path
+          name: serviceName
+          required: true
+          schema:
+            type: string
+          description: The name of the service (e.g., "kitting", "bonded-warehousing")
+      responses:
+        '200':
+          description: A service description
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+
+components:
+  schemas:
+    Service:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        industries:
+          type: array
+          items:
+            type: string
+        locations_served:
+          type: array
+          items:
+            type: string
+        pricing_model:
+          type: string
+        schema_metadata:
+          type: object
+          additionalProperties: true
+
+    Location:
+      type: object
+      properties:
+        name:
+          type: string
+        address:
+          type: string
+        phone:
+          type: string
+        capacity_sqft:
+          type: integer
+        dock_doors:
+          type: integer
+        features:
+          type: array
+          items:
+            type: string
+        certifications:
+          type: array
+          items:
+            type: string
+        services_offered:
+          type: array
+          items:
+            type: string
+        location_code:
+          type: string
+        schema_metadata:
+          type: object
+          additionalProperties: true
 
