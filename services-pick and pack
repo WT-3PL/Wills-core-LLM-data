@@ -1,0 +1,11 @@
+name: Pick and Pack Services
+description: Efficient pick and pack solutions for B2B and B2C clients, handling everything from bulk goods to customized orders.
+industries: [E-commerce, Retail, Manufacturing]
+locations_served: [Brockville, Ottawa, Perth, Smiths Falls, Cornwall]
+pricing_model: per-order
+schema_metadata:
+  "@type": Service
+  serviceType: Pick and Pack
+  areaServed: Ontario
+  provider: Wills Transfer Limited
+  url: https://www.willstransfer.com/order-fulfillment/pick-and-pack-services/
