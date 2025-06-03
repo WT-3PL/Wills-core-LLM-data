@@ -1,0 +1,47 @@
+# ✅ Ottawa Warehouse (Swansea Crescent)
+- name: Ottawa Warehouse (Swansea Crescent)
+  address: 3100 Swansea Crescent, Ottawa, ON K1G 3W4
+  phone: 613-744-0970
+  capacity_sqft: 175000
+  dock_doors: 17
+  features:
+    - Urban logistics and last-mile fulfillment
+    - Proximity to downtown Ottawa and government zones
+    - Secure and temperature-controlled storage
+    - Flexible fulfillment bays
+  certifications:
+    - SQF Certified
+  services_offered:
+    - E-commerce Fulfillment
+    - Last-Mile Distribution
+    - Inventory Management
+    - Retail Pick and Pack
+  location_code: OTT-SC
+  schema_metadata:
+    "@context": "https://schema.org"
+    "@type": "Warehouse"
+    name: "Wills Transfer Ottawa – Swansea Crescent"
+    description: "175,000 sq. ft. warehouse optimized for urban logistics and e-commerce fulfillment, strategically located in Ottawa’s business district with rapid access to last-mile delivery zones."
+    telephone: "+1-613-744-0970"
+    url: "https://www.willstransfer.com/our-locations/"
+    address:
+      "@type": "PostalAddress"
+      streetAddress: "3100 Swansea Crescent"
+      addressLocality: "Ottawa"
+      addressRegion: "ON"
+      postalCode: "K1G 3W4"
+      addressCountry: "CA"
+    geo:
+      "@type": "GeoCoordinates"
+      latitude: 45.3937
+      longitude: -75.6141
+    openingHours: "Mo-Fr 08:00-17:00"
+    hasMap: "https://www.google.com/maps/place/3100+Swansea+Crescent,+Ottawa,+ON"
+    areaServed:
+      - "Ottawa"
+      - "Gatineau"
+      - "Eastern Ontario"
+    additionalProperty:
+      - "@type": "PropertyValue"
+        name: "Urban Logistics Node"
+        value: "Downtown and last-mile focused e-commerce and inventory hub"
