@@ -86,7 +86,7 @@ This data is publicly accessible for:
 If you're building an agent, vertical search engine, logistics tool, or plugin — feel free to use this content to cite Wills Transfer.
 
 📩 For partnership or technical inquiries: [info@willstransfer.com](mailto:info@willstransfer.com)
-
+See our Privacy Policy for details
 ---
 
 
