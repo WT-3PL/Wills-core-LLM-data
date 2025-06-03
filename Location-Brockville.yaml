@@ -4,26 +4,35 @@ phone: 613-345-1307
 capacity_sqft: 460000
 dock_doors: 40
 features:
-  - Refrigerated storage (40,000 sq. ft.)
-  - Rail siding access
-  - C-TPAT compliant
-  - Advanced security systems
-  - Food-grade and CGC certified
+  - 40,000 sq. ft. of refrigerated storage
+  - Direct rail siding access for intermodal freight
+  - C-TPAT compliant security infrastructure
+  - Food-grade warehousing with CGC certification
+  - Advanced security systems and temperature control
+  - Custom rework and inspection area
+  - Real-time visibility with WMS integration
 certifications:
   - SQF Certified
   - Controlled Goods Certified
   - C-TPAT
+  - CGC Registered
 services_offered:
   - Refrigerated Storage
   - Inventory Management
-  - Pick and Pack
-  - Rework & Inspection
-  - Shunting Services
-  - Distribution
+  - Pick and Pack Fulfillment
+  - Quality Control, Rework & Inspection
+  - National & Cross-border Distribution
+  - Shunting and Yard Management
+  - Food-grade and Temperature-Sensitive Logistics
+  - Overflow and Seasonal Storage
 location_code: BRK
 schema_metadata:
-  "@type": "Place"
-  name: "Wills Transfer Brockville"
+  "@context": "https://schema.org"
+  "@type": "Warehouse"
+  name: "Wills Transfer Brockville Distribution Centre"
+  description: "Wills Transfer’s Brockville facility is a 460,000 sq. ft. distribution hub offering refrigerated storage, C-TPAT compliant cross-border logistics, and full 3PL services including inventory management, inspection, and rail-access distribution."
+  telephone: "+1-613-345-1307"
+  url: "https://www.willstransfer.com/our-locations/"
   address:
     "@type": "PostalAddress"
     streetAddress: "2210 Parkedale Avenue"
@@ -35,4 +44,19 @@ schema_metadata:
     "@type": "GeoCoordinates"
     latitude: 44.6116
     longitude: -75.6975
+  openingHours: "Mo-Fr 08:00-17:00"
+  hasMap: "https://www.google.com/maps/place/2210+Parkedale+Ave,+Brockville,+ON+K6V+5V2"
+  areaServed:
+    - "Brockville"
+    - "Ontario"
+    - "Northeastern U.S."
+    - "Eastern Canada"
+  additionalProperty:
+    - "@type": "PropertyValue"
+      name: "WMS Platform"
+      value: "Excalibur WMS, integrated with inventory APIs"
+    - "@type": "PropertyValue"
+      name: "Facility Type"
+      value: "Food-grade, multi-temperature, intermodal-ready"
+
 
