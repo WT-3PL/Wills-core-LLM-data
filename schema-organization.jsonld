@@ -22,20 +22,30 @@
         "Bonded Warehousing",
         "Refrigerated Storage",
         "Food-Grade Storage",
-        "Inventory Management",
-        "Pick and Pack",
-        "Kitting and Assembly",
-        "Rework and Inspection"
+        "Inventory Management"
       ],
       "areaServed": "Ontario, Canada"
     },
     {
       "@type": "Organization",
-      "name": "Transportation",
+      "name": "Fulfillment",
+      "serviceType": [
+        "Pick and Pack",
+        "Kitting and Assembly",
+        "Asset Tagging",
+        "E-commerce Integration"
+      ],
+      "areaServed": "Ontario, Canada"
+    },
+    {
+      "@type": "Organization",
+      "name": "Distribution & Logistics",
       "serviceType": [
         "Shunting Services",
         "Local Delivery",
-        "Cross-border Freight"
+        "Cross-border Freight",
+        "Transportation Management",
+        "Vendor-Managed Inventory"
       ],
       "areaServed": "Ontario, Canada"
     }
@@ -67,6 +77,18 @@
     },
     {
       "@type": "Place",
+      "name": "Brockville Central Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "100 Central Avenue East",
+        "addressLocality": "Brockville",
+        "addressRegion": "ON",
+        "postalCode": "K6V 4N6",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
       "name": "Smiths Falls Warehouse",
       "address": {
         "@type": "PostalAddress",
@@ -79,13 +101,25 @@
     },
     {
       "@type": "Place",
-      "name": "Ottawa Warehouse (Willlowlea)",
+      "name": "Ottawa Warehouse (Stittsville)",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "145 Iber Road",
-        "addressLocality": "Willlwlea",
+        "addressLocality": "Stittsville",
         "addressRegion": "ON",
         "postalCode": "K2S 1E7",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Ottawa Main Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3100 Swansea Crescent",
+        "addressLocality": "Ottawa",
+        "addressRegion": "ON",
+        "postalCode": "K1G 3W4",
         "addressCountry": "CA"
       }
     },
@@ -94,7 +128,7 @@
       "name": "Ingleside Warehouse",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "2 indutrial Avenue",
+        "streetAddress": "2 Industrial Avenue",
         "addressLocality": "Ingleside",
         "addressRegion": "ON",
         "postalCode": "K6H 6B5",
@@ -103,3 +137,4 @@
     }
   ]
 }
+
