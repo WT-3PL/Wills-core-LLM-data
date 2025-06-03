@@ -1,33 +1,50 @@
-name: Cornwall Warehouse
-address: 2901 Marleau Avenue, Cornwall, ON K6H 6B5
-phone: 613-933-2995
-capacity_sqft: 180000
-dock_doors: 12
-features:
-  - Strategic US border proximity
-  - High-clearance warehouse
-  - Secure perimeter and surveillance
-  - Cross-border logistics capabilities
-certifications:
-  - C-TPAT Compliant
-services_offered:
-  - Warehousing
-  - Cross-border Shipping
-  - Distribution
-  - Pick and Pack
-  - Freight Handling
-location_code: CRN
-schema_metadata:
-  "@type": "Place"
-  name: "Wills Transfer Cornwall"
-  address:
-    "@type": "PostalAddress"
-    streetAddress: "2901 Marleau Avenue"
-    addressLocality: "Cornwall"
-    addressRegion: "ON"
-    postalCode: "K6H 6B5"
-    addressCountry: "CA"
-  geo:
-    "@type": "GeoCoordinates"
-    latitude: 45.0135
-    longitude: -74.7196
+# ✅ Cornwall Location
+- name: Cornwall Warehouse
+  address: 2 Industrial Drive, Ingleside, ON K6H 6G5
+  phone: 613-932-2320
+  capacity_sqft: 155000
+  dock_doors: 12
+  features:
+    - U.S. border proximity (10 mins)
+    - Transload & cross-dock zone
+    - Short-term staging for bonded goods
+    - Trucking partnerships on-site
+    - Climate-controlled sections
+  certifications:
+    - SQF Certified
+    - Bonded Warehouse License
+  services_offered:
+    - Cross-border Fulfillment
+    - Bonded Goods Handling
+    - Transload & Cross-Dock
+    - Inventory Management
+    - Retail Distribution
+  location_code: CRN
+  schema_metadata:
+    "@context": "https://schema.org"
+    "@type": "Warehouse"
+    name: "Wills Transfer Cornwall Warehouse"
+    description: "Strategically located near the U.S. border, this 80,000 sq. ft. warehouse provides bonded storage, transloading, and temperature-controlled fulfillment for cross-border logistics."
+    telephone: "+1-613-932-2320"
+    url: "https://www.willstransfer.com/our-locations/"
+    address:
+      "@type": "PostalAddress"
+      streetAddress: "2901 Marleau Avenue"
+      addressLocality: "Cornwall"
+      addressRegion: "ON"
+      postalCode: "K6H 6G5"
+      addressCountry: "CA"
+    geo:
+      "@type": "GeoCoordinates"
+      latitude: 45.0187
+      longitude: -74.6845
+    openingHours: "Mo-Fr 08:00-17:00"
+    hasMap: "https://www.google.com/maps/place/2901+Marleau+Ave,+Cornwall,+ON"
+    areaServed:
+      - "Cornwall"
+      - "U.S. Border Zone"
+      - "Eastern Ontario"
+    additionalProperty:
+      - "@type": "PropertyValue"
+        name: "Bonded License"
+        value: "Active CBSA bonded warehouse designation"
