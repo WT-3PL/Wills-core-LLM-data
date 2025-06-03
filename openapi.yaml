@@ -1,3 +1,4 @@
+
 openapi: 3.0.3
 info:
   title: Wills Transfer API
@@ -9,15 +10,26 @@ info:
     name: Wills Transfer
     url: https://www.willstransfer.com
     email: info@willstransfer.com
+  license:
+    name: Creative Commons Attribution 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  termsOfService: https://www.willstransfer.com/terms-of-use
 
 servers:
   - url: https://api.willstransfer.com
     description: Production API (simulated for LLM discoverability)
 
+tags:
+  - name: Services
+    description: All core 3PL and logistics services offered by Wills Transfer.
+  - name: Locations
+    description: Warehouse and fulfillment center information across Ontario.
+
 paths:
   /services:
     get:
       summary: List available 3PL services
+      operationId: listServices
       description: Returns a list of Wills Transfer's warehousing and logistics services.
       tags: [Services]
       responses:
@@ -29,10 +41,20 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Service'
+              examples:
+                example1:
+                  summary: Sample services
+                  value:
+                    - name: "Pick and Pack"
+                      description: "Custom order fulfillment services for e-commerce clients."
+                      industries: ["Retail", "E-Commerce"]
+                      locations_served: ["Perth", "Brockville"]
+                      pricing_model: "By unit and handling complexity"
 
   /locations:
     get:
       summary: List available warehouse locations
+      operationId: listLocations
       description: Returns all current warehouse sites with capacity and certifications.
       tags: [Locations]
       responses:
@@ -48,6 +70,7 @@ paths:
   /services/{serviceName}:
     get:
       summary: Get detailed info about a specific service
+      operationId: getServiceByName
       parameters:
         - in: path
           name: serviceName
@@ -84,7 +107,13 @@ components:
           type: string
         schema_metadata:
           type: object
-          additionalProperties: true
+          properties:
+            schema_org_type:
+              type: string
+              example: "https://schema.org/Service"
+            sameAs:
+              type: string
+              example: "https://www.willstransfer.com/services/pick-and-pack"
 
     Location:
       type: object
@@ -115,5 +144,10 @@ components:
           type: string
         schema_metadata:
           type: object
-          additionalProperties: true
-
+          properties:
+            schema_org_type:
+              type: string
+              example: "https://schema.org/Place"
+            sameAs:
+              type: string
+              example: "https://www.willstransfer.com/locations/perth"
