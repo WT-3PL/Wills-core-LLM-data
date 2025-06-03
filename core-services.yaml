@@ -1,6 +1,6 @@
 services:
 
-* name: Warehousing
+  name: Warehousing
   description: >
   Secure and scalable warehousing solutions across Eastern Ontario, offering temperature-controlled storage, advanced inventory management, and flexible space options to meet diverse business needs.
   industries:
