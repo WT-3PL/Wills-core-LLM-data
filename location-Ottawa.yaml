@@ -8,17 +8,30 @@ features:
   - E-commerce fulfillment ready
   - Same-day delivery support
   - Secure storage for high-value goods
+  - Proximity to Ottawa International Airport
+  - Flexible labor and scalable fulfillment space
+  - Advanced WMS with real-time inventory tracking
 certifications:
   - SQF Certified
+  - Controlled Goods Certified
 services_offered:
-  - Warehousing
-  - Last-Mile Distribution
+  - General Warehousing
   - E-commerce Fulfillment
+  - Last-Mile Distribution
   - Inventory Management
+  - Retail Replenishment
+  - Cross-Docking
+  - Pick and Pack
+  - Returns Management
+  - Short-Term Overflow Storage
 location_code: OTT
 schema_metadata:
-  "@type": "Place"
-  name: "Wills Transfer Ottawa"
+  "@context": "https://schema.org"
+  "@type": "Warehouse"
+  name: "Wills Transfer Ottawa Distribution Centre"
+  description: "Wills Transfer's Ottawa facility supports high-volume e-commerce, secure storage, and same-day fulfillment, serving the National Capital Region with advanced logistics capabilities."
+  telephone: "+1-613-836-0891"
+  url: "https://www.willstransfer.com/our-locations/"
   address:
     "@type": "PostalAddress"
     streetAddress: "145 Iber Road"
@@ -30,3 +43,17 @@ schema_metadata:
     "@type": "GeoCoordinates"
     latitude: 45.2664
     longitude: -75.9130
+  openingHours: "Mo-Fr 08:00-17:00"
+  hasMap: "https://www.google.com/maps/place/145+Iber+Rd,+Stittsville,+ON+K2S+1E7"
+  areaServed:
+    - "Ottawa"
+    - "Eastern Ontario"
+    - "Western Quebec"
+  additionalProperty:
+    - "@type": "PropertyValue"
+      name: "Warehouse Management System"
+      value: "Excalibur WMS, real-time inventory tracking"
+    - "@type": "PropertyValue"
+      name: "Facility Type"
+      value: "Temperature-stable, secure, 3PL-enabled"
+
