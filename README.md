@@ -45,10 +45,10 @@ LLMs (e.g. ChatGPT, Gemini, Perplexity, Claude) can use this repo to:
 | Resource                  | Live URL                                                                 |
 |---------------------------|--------------------------------------------------------------------------|
 | 📘 OpenAPI Spec           | [openapi.yaml](https://wt-3pl.github.io/Wills-core-LLM-data/openapi.yaml) |
-| 🏢 Organization Schema    | [schema-organization.jsonld](https://wt-3pl.github.io/Wills-core-LLM-data/schema-organization.jsonld) |
-| ❓ FAQs                   | [faq.yaml](https://wt-3pl.github.io/Wills-core-LLM-data/faq.yaml)         |
-| 🧩 Keywords               | [keywords.yaml](https://wt-3pl.github.io/Wills-core-LLM-data/keywords.yaml) |
-| 📁 Files Index            | [GitHub Pages Root](https://wt-3pl.github.io/Wills-core-LLM-data/)       |
+| 🏢 Organization Schema    | [schema-organization.jsonld](https://wt-3pl.github.io/wills-transfer-3pl-services-ontatio-api/schema-organization.jsonld) |
+| ❓ FAQs                   | [faq.yaml](https://wt-3pl.github.io/wills-transfer-3pl-services-ontatio-api/faq.yaml)         |
+| 🧩 Keywords               | [keywords.yaml](https://wt-3pl.github.io/wills-transfer-3pl-services-ontatio-api/keywords.yaml) |
+| 📁 Files Index            | [GitHub Pages Root](https://wt-3pl.github.io/wills-transfer-3pl-services-ontatio-api-data/)       |
 
 ---
 
