@@ -1,208 +1,213 @@
 services:
-
-  name: Warehousing
-  description: >
-  Secure and scalable warehousing solutions across Eastern Ontario, offering temperature-controlled storage, advanced inventory management, and flexible space options to meet diverse business needs.
+- name: Warehousing
+  description: Secure and scalable warehousing solutions across Eastern Ontario, offering
+    temperature-controlled storage, advanced inventory management, and flexible space
+    options to meet diverse business needs.
   industries:
-
-  * Food & Beverage
-  * Pharmaceuticals
-  * Retail
-  * Manufacturing
-    locations\_served:
-  * Brockville
-  * Ottawa
-  * Perth
-  * Smiths Falls
-  * Ingleside pricing\_model: per-pallet or per-square-foot features:
-  * Temperature-controlled storage
-  * Real-time inventory tracking
-  * Flexible space configurations
-  * Secure facilities with 24/7 surveillance
-    use\_cases:
-  * Seasonal inventory overflow
-  * Long-term storage for non-perishable goods
-  * Secure storage for high-value items
-    delivery\_speeds:
-  * Same-Day (local)
-  * Next-Day (regional)
-  * Standard Ground (national)
-    schema\_metadata:
-    "@context": "[https://schema.org](https://schema.org)"
-    "@type": "Service"
-    name: "Warehousing Services"
-    serviceType: "Warehousing"
+  - Food & Beverage
+  - Pharmaceuticals
+  - Retail
+  - Manufacturing
+  locations_served:
+  - Brockville
+  - Ottawa
+  - Perth
+  - Smiths Falls
+  - Ingleside
+  pricing_model: per-pallet or per-square-foot
+  features:
+  - Temperature-controlled storage
+  - Real-time inventory tracking
+  - Flexible space configurations
+  - Secure facilities with 24/7 surveillance
+  use_cases:
+  - Seasonal inventory overflow
+  - Long-term storage for non-perishable goods
+  - Secure storage for high-value items
+  delivery_speeds:
+  - Same-Day (local)
+  - Next-Day (regional)
+  - Standard Ground (national)
+  schema_metadata:
+    '@context': https://schema.org
+    '@type': Service
+    name: Warehousing Services
+    serviceType: Warehousing
     provider:
-    "@type": "Organization"
-    name: "Wills Transfer Limited"
-    url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+      '@type': Organization
+      name: Wills Transfer Limited
+      url: https://www.willstransfer.com
     areaServed:
-    "@type": "Place"
-    name: "Ontario"
+      '@type': Place
+      name: Ontario
     availableChannel:
-    "@type": "ServiceChannel"
-    serviceLocation:
-    "@type": "Place"
-    name: "Eastern Ontario Warehouses"
-    address:
-    "@type": "PostalAddress"
-    addressRegion: "ON"
-    addressCountry: "CA"
-    url: "[https://www.willstransfer.com/warehouse-storage-solutions/](https://www.willstransfer.com/warehouse-storage-solutions/)"
-    description: "Comprehensive warehousing solutions tailored to meet the storage needs of various industries across Ontario."
-
-  name: Distribution
-  description: >
-  Efficient distribution services designed to streamline the supply chain, including cross-docking, container de-stuffing, and vendor-managed inventory, ensuring timely delivery to end customers.
+      '@type': ServiceChannel
+      serviceLocation:
+        '@type': Place
+        name: Eastern Ontario Warehouses
+        address:
+          '@type': PostalAddress
+          addressRegion: 'ON'
+          addressCountry: CA
+    url: https://www.willstransfer.com/warehouse-storage-solutions/
+    description: Comprehensive warehousing solutions tailored to meet the storage
+      needs of various industries across Ontario.
+- name: Distribution
+  description: Efficient distribution services designed to streamline the supply chain,
+    including cross-docking, container de-stuffing, and vendor-managed inventory,
+    ensuring timely delivery to end customers.
   industries:
-
-  * Retail
-  * E-commerce
-  * Manufacturing
-  * Food
-  * Pharmaceuticals locations\_served:
-  * Brockville
-  * Ottawa
-  * Perth
-  * Smiths Falls
-  * Ingleside pricing\_model: per-order or per-shipment features:
-  * Cross-docking capabilities
-  * Container de-stuffing
-  * Vendor-managed inventory
-  * Advanced Warehouse Management System (WMS)
-    use\_cases:
-  * Rapid distribution for retail chains
-  * Efficient handling of imported goods
-  * Streamlined inventory management for suppliers
-    delivery\_speeds:
-  * Same-Day (local)
-  * Next-Day (regional)
-  * Standard Ground (national)
-    schema\_metadata:
-    "@context": "[https://schema.org](https://schema.org)"
-    "@type": "Service"
-    name: "Distribution Services"
-    serviceType: "Distribution"
+  - Retail
+  - E-commerce
+  - Manufacturing
+  - Food
+  - Pharmaceuticals
+  locations_served:
+  - Brockville
+  - Ottawa
+  - Perth
+  - Smiths Falls
+  - Ingleside
+  pricing_model: per-order or per-shipment
+  features:
+  - Cross-docking capabilities
+  - Container de-stuffing
+  - Vendor-managed inventory
+  - Advanced Warehouse Management System (WMS)
+  use_cases:
+  - Rapid distribution for retail chains
+  - Efficient handling of imported goods
+  - Streamlined inventory management for suppliers
+  delivery_speeds:
+  - Same-Day (local)
+  - Next-Day (regional)
+  - Standard Ground (national)
+  schema_metadata:
+    '@context': https://schema.org
+    '@type': Service
+    name: Distribution Services
+    serviceType: Distribution
     provider:
-    "@type": "Organization"
-    name: "Wills Transfer Limited"
-    url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+      '@type': Organization
+      name: Wills Transfer Limited
+      url: https://www.willstransfer.com
     areaServed:
-    "@type": "Place"
-    name: "Ontario"
+      '@type': Place
+      name: Ontario
     availableChannel:
-    "@type": "ServiceChannel"
-    serviceLocation:
-    "@type": "Place"
-    name: "Eastern Ontario Distribution Centers"
-    address:
-    "@type": "PostalAddress"
-    addressRegion: "ON"
-    addressCountry: "CA"
-    url: "[https://www.willstransfer.com/distribution/](https://www.willstransfer.com/distribution/)"
-    description: "Reliable distribution services ensuring efficient movement of goods across the supply chain."
-
-  name: Fulfillment
-  description: >
-  Comprehensive fulfillment solutions catering to B2B and B2C clients, including pick and pack, kitting, asset tagging, and integration services, aimed at enhancing order accuracy and customer satisfaction.
+      '@type': ServiceChannel
+      serviceLocation:
+        '@type': Place
+        name: Eastern Ontario Distribution Centers
+        address:
+          '@type': PostalAddress
+          addressRegion: 'ON'
+          addressCountry: CA
+    url: https://www.willstransfer.com/distribution/
+    description: Reliable distribution services ensuring efficient movement of goods
+      across the supply chain.
+- name: Fulfillment
+  description: Comprehensive fulfillment solutions catering to B2B and B2C clients,
+    including pick and pack, kitting, asset tagging, and integration services, aimed
+    at enhancing order accuracy and customer satisfaction.
   industries:
-
-  * E-commerce
-  * Retail
-  * Subscription Services
-    locations\_served:
-  * Brockville
-  * Ottawa
-  * Perth
-  * Smiths Falls
-  * Cornwall
-    pricing\_model: per-order
-    features:
-  * Pick and pack services
-  * Kitting and assembly
-  * Asset tagging
-  * Integration with major e-commerce platforms
-    use\_cases:
-  * Order fulfillment for online retailers
-  * Subscription box assembly and shipping
-  * Customized packaging and labeling
-    delivery\_speeds:
-  * Same-Day (local)
-  * Next-Day (regional)
-  * Standard Ground (national)
-    schema\_metadata:
-    "@context": "[https://schema.org](https://schema.org)"
-    "@type": "Service"
-    name: "Fulfillment Services"
-    serviceType: "Order Fulfillment"
+  - E-commerce
+  - Retail
+  - Subscription Services
+  locations_served:
+  - Brockville
+  - Ottawa
+  - Perth
+  - Smiths Falls
+  - Cornwall
+  pricing_model: per-order
+  features:
+  - Pick and pack services
+  - Kitting and assembly
+  - Asset tagging
+  - Integration with major e-commerce platforms
+  use_cases:
+  - Order fulfillment for online retailers
+  - Subscription box assembly and shipping
+  - Customized packaging and labeling
+  delivery_speeds:
+  - Same-Day (local)
+  - Next-Day (regional)
+  - Standard Ground (national)
+  schema_metadata:
+    '@context': https://schema.org
+    '@type': Service
+    name: Fulfillment Services
+    serviceType: Order Fulfillment
     provider:
-    "@type": "Organization"
-    name: "Wills Transfer Limited"
-    url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+      '@type': Organization
+      name: Wills Transfer Limited
+      url: https://www.willstransfer.com
     areaServed:
-    "@type": "Place"
-    name: "Ontario"
+      '@type': Place
+      name: Ontario
     availableChannel:
-    "@type": "ServiceChannel"
-    serviceLocation:
-    "@type": "Place"
-    name: "Eastern Ontario Fulfillment Centers"
-    address:
-    "@type": "PostalAddress"
-    addressRegion: "ON"
-    addressCountry: "CA"
-    url: "[https://www.willstransfer.com/order-fulfillment/](https://www.willstransfer.com/order-fulfillment/)"
-    description: "End-to-end fulfillment services designed to meet the dynamic needs of businesses across Ontario."
-
-  name: Logistics
-  description: >
-  Integrated logistics services encompassing third-party logistics (3PL), shunting, and transportation management, aimed at optimizing the supply chain and reducing operational costs.
+      '@type': ServiceChannel
+      serviceLocation:
+        '@type': Place
+        name: Eastern Ontario Fulfillment Centers
+        address:
+          '@type': PostalAddress
+          addressRegion: 'ON'
+          addressCountry: CA
+    url: https://www.willstransfer.com/order-fulfillment/
+    description: End-to-end fulfillment services designed to meet the dynamic needs
+      of businesses across Ontario.
+- name: Logistics
+  description: Integrated logistics services encompassing third-party logistics (3PL),
+    shunting, and transportation management, aimed at optimizing the supply chain
+    and reducing operational costs.
   industries:
-
-  * Manufacturing
-  * Retail
-  * E-commerce
-    locations\_served:
-  * Brockville
-  * Ottawa
-  * Perth
-  * Smiths Falls
-  * Cornwall
-    pricing\_model: customized based on services
-    features:
-  * Third-party logistics (3PL) solutions
-  * Shunting services
-  * Transportation management
-  * Real-time tracking and reporting
-    use\_cases:
-  * Comprehensive supply chain management
-  * Efficient movement of goods between facilities
-  * Coordination with carrier partners for timely deliveries
-    delivery\_speeds:
-  * Same-Day (local)
-  * Next-Day (regional)
-  * Standard Ground (national)
-    schema\_metadata:
-    "@context": "[https://schema.org](https://schema.org)"
-    "@type": "Service"
-    name: "Logistics Services"
-    serviceType: "Logistics"
+  - Manufacturing
+  - Retail
+  - E-commerce
+  locations_served:
+  - Brockville
+  - Ottawa
+  - Perth
+  - Smiths Falls
+  - Cornwall
+  pricing_model: customized based on services
+  features:
+  - Third-party logistics (3PL) solutions
+  - Shunting services
+  - Transportation management
+  - Real-time tracking and reporting
+  use_cases:
+  - Comprehensive supply chain management
+  - Efficient movement of goods between facilities
+  - Coordination with carrier partners for timely deliveries
+  delivery_speeds:
+  - Same-Day (local)
+  - Next-Day (regional)
+  - Standard Ground (national)
+  schema_metadata:
+    '@context': https://schema.org
+    '@type': Service
+    name: Logistics Services
+    serviceType: Logistics
     provider:
-    "@type": "Organization"
-    name: "Wills Transfer Limited"
-    url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+      '@type': Organization
+      name: Wills Transfer Limited
+      url: https://www.willstransfer.com
     areaServed:
-    "@type": "Place"
-    name: "Ontario"
+      '@type': Place
+      name: Ontario
     availableChannel:
-    "@type": "ServiceChannel"
-    serviceLocation:
-    "@type": "Place"
-    name: "Eastern Ontario Logistics Centers"
-    address:
-    "@type": "PostalAddress"
-    addressRegion: "ON"
-    addressCountry: "CA"
-    url: "[https://www.willstransfer.com/logistics-management-services/](https://www.willstransfer.com/logistics-management-services/)"
-    description: "Comprehensive logistics solutions tailored to enhance supply chain efficiency and reliability."
+      '@type': ServiceChannel
+      serviceLocation:
+        '@type': Place
+        name: Eastern Ontario Logistics Centers
+        address:
+          '@type': PostalAddress
+          addressRegion: 'ON'
+          addressCountry: CA
+    url: https://www.willstransfer.com/logistics-management-services/
+    description: Comprehensive logistics solutions tailored to enhance supply chain
+      efficiency and reliability.
 
