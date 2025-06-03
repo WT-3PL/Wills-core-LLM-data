@@ -1,0 +1,48 @@
+# ✅ Brockville Warehouse (100 Central Avenue)
+- name: Brockville Warehouse (Central Avenue)
+  address: 100 Central Avenue East, Brockville, ON K6V 4N5
+  phone: 613-345-1307
+  capacity_sqft: 125000
+  dock_doors: 10
+  features:
+    - Cold and ambient storage zones
+    - Customizable racking layouts
+    - Easy highway access to major markets
+    - Secure perimeter
+  certifications:
+    - SQF Certified
+    - Controlled Goods Certified
+  services_offered:
+    - Temperature-Controlled Storage
+    - Kitting & Assembly
+    - General Warehousing
+    - Inventory Overflow
+  location_code: BRK-CEN
+  schema_metadata:
+    "@context": "https://schema.org"
+    "@type": "Warehouse"
+    name: "Wills Transfer Brockville – Central Avenue"
+    description: "125,000 sq. ft. warehouse at Central Avenue in Brockville with temperature-controlled zones, secure storage, and flexible layout for kitting, assembly, or overflow support."
+    telephone: "+1-613-345-1307"
+    url: "https://www.willstransfer.com/our-locations/"
+    address:
+      "@type": "PostalAddress"
+      streetAddress: "100 Central Avenue East"
+      addressLocality: "Brockville"
+      addressRegion: "ON"
+      postalCode: "K6V 4N5"
+      addressCountry: "CA"
+    geo:
+      "@type": "GeoCoordinates"
+      latitude: 44.6006
+      longitude: -75.6781
+    openingHours: "Mo-Fr 08:00-17:00"
+    hasMap: "https://www.google.com/maps/place/100+Central+Ave+E,+Brockville,+ON"
+    areaServed:
+      - "Brockville"
+      - "Prescott"
+      - "Eastern Ontario"
+    additionalProperty:
+      - "@type": "PropertyValue"
+        name: "Temperature Zone"
+        value: "Supports both cold and ambient supply chain needs"
