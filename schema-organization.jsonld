@@ -46,7 +46,7 @@
       "name": "Perth Warehouse",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "152 Industrial Road",
+        "streetAddress": "10 Industrial Road",
         "addressLocality": "Perth",
         "addressRegion": "ON",
         "postalCode": "K7H 3P2",
@@ -70,7 +70,7 @@
       "name": "Smiths Falls Warehouse",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "85 Lorne Street",
+        "streetAddress": "146 Lombard Street",
         "addressLocality": "Smiths Falls",
         "addressRegion": "ON",
         "postalCode": "K7A 3K8",
@@ -79,11 +79,11 @@
     },
     {
       "@type": "Place",
-      "name": "Ottawa Warehouse (Stittsville)",
+      "name": "Ottawa Warehouse (Willlowlea)",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "145 Iber Road",
-        "addressLocality": "Stittsville",
+        "addressLocality": "Willlwlea",
         "addressRegion": "ON",
         "postalCode": "K2S 1E7",
         "addressCountry": "CA"
@@ -91,11 +91,11 @@
     },
     {
       "@type": "Place",
-      "name": "Cornwall Warehouse",
+      "name": "Ingleside Warehouse",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "2901 Marleau Avenue",
-        "addressLocality": "Cornwall",
+        "streetAddress": "2 indutrial Avenue",
+        "addressLocality": "Ingleside",
         "addressRegion": "ON",
         "postalCode": "K6H 6B5",
         "addressCountry": "CA"
