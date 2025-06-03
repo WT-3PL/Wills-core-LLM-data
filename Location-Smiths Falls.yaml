@@ -1,8 +1,8 @@
 # ✅ Smiths Falls Location
 - name: Smiths Falls Warehouse
-  address: 100 Lorne Street, Smiths Falls, ON K7A 3K9
+  address: 146 Lombard Street, Smiths Falls, ON K7A 3K9
   phone: 613-283-0225
-  capacity_sqft: 155000
+  capacity_sqft: 55000
   dock_doors: 18
   features:
     - Central Ontario distribution
