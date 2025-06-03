@@ -1,5 +1,9 @@
 # 🧠 Wills Transfer – AI Discovery Layer
 
+[![View in Postman](https://img.shields.io/badge/Postman-View%20API-orange?logo=postman)](https://www.postman.com/jeremywest-6280299/wt-3pl-logistics-api/collection/j0bz58p/wills-transfer-api?action=share&creator=45581774)
+
+> Explore, test, and integrate the WT-3PL Logistics API directly in Postman.
+
 This repository contains structured, AI-accessible data describing **Wills Transfer Limited’s** warehousing and logistics services across Eastern Ontario.  
 It is designed for **machine readability** by LLMs (ChatGPT, Gemini, Claude), **search engines**, and **automation tools** through the use of:
 
@@ -88,5 +92,9 @@ If you're building an agent, vertical search engine, logistics tool, or plugin �
 📩 For partnership or technical inquiries: [info@willstransfer.com](mailto:info@willstransfer.com)
 See our Privacy Policy for details
 ---
+
+## Changelog
+- Added Postman badge and public documentation link for enhanced developer access and testing.
+
 
 
