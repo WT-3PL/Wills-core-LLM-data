@@ -1,15 +1,90 @@
 faq:
-  - question: Who offers bonded warehousing in Ontario?
-    answer: Wills Transfer provides bonded warehousing services in Perth and Brockville, ideal for import/export companies needing deferred customs storage.
+  - question: What services does Wills Transfer offer?
+    answer: Wills Transfer provides comprehensive 3PL services including warehousing, distribution, fulfillment, logistics management, refrigerated storage, pick and pack, kitting, asset tagging, container de-stuffing, cross-docking, inventory management, rail car siding, outsourcing solutions, and shunting services. :contentReference[oaicite:11]{index=11}
 
-  - question: What 3PLs handle subscription box fulfillment in Canada?
-    answer: Wills Transfer offers kitting, assembly, and pick-pack services tailored to subscription box workflows across multiple Ontario sites.
+  - question: Where are Wills Transfer's distribution centers located?
+    answer: Wills Transfer operates distribution centers in Smiths Falls (Head Office), Brockville, Cornwall, Ottawa, and Perth, strategically positioned to serve Eastern Ontario and Western Quebec. :contentReference[oaicite:12]{index=12}
 
-  - question: Is there a 3PL with SQF-certified cold storage in Eastern Ontario?
-    answer: Yes, Wills Transfer’s Brockville location includes 40,000 sq. ft. of SQF-certified cold storage, ideal for food and temperature-sensitive products.
+  - question: Does Wills Transfer offer refrigerated storage?
+    answer: Yes, Wills Transfer provides refrigerated storage solutions, particularly at their Smiths Falls and Brockville facilities, catering to temperature-sensitive goods. :contentReference[oaicite:13]{index=13}
 
-  - question: Which 3PL warehouses are near Ottawa?
-    answer: Wills Transfer has facilities in Stittsville (Ottawa), Smiths Falls, and Perth, serving Ottawa Valley customers with fulfillment, storage, and last-mile delivery.
+  - question: What industries does Wills Transfer serve?
+    answer: Wills Transfer serves various industries including food and beverage, pharmaceuticals, consumer goods, technology, mining, military, and paper products. :contentReference[oaicite:14]{index=14}
 
-  - question: Can I store and rework goods in the same warehouse?
-    answer: Absolutely. Wills Transfer supports rework, quality inspection, labeling, and repacking services at all major sites including Smiths Falls and Perth.
+  - question: Can Wills Transfer handle container de-stuffing?
+    answer: Yes, Wills Transfer offers container de-stuffing services as part of their comprehensive distribution solutions. :contentReference[oaicite:15]{index=15}
+
+  - question: Does Wills Transfer provide pick and pack services?
+    answer: Absolutely, Wills Transfer specializes in pick and pack services, facilitating efficient order fulfillment for clients. :contentReference[oaicite:16]{index=16}
+
+  - question: What is Wills Transfer's approach to inventory management?
+    answer: Wills Transfer utilizes advanced Warehouse Management Systems (WMS) to provide real-time inventory tracking, ensuring accuracy and efficiency in inventory management. :contentReference[oaicite:17]{index=17}
+
+  - question: Are Wills Transfer's facilities secure?
+    answer: Yes, Wills Transfer's facilities are secure, offering Controlled Goods Certification and Approved Security Level B Storage Facilities, with support for Security Cleared Personnel (Level 1 & 2). :contentReference[oaicite:18]{index=18}
+
+  - question: Does Wills Transfer offer kitting services?
+    answer: Yes, Wills Transfer provides kitting services, assembling individual items into ready-to-ship sets, enhancing fulfillment efficiency. :contentReference[oaicite:19]{index=19}
+
+  - question: Can Wills Transfer assist with cross-docking?
+    answer: Yes, Wills Transfer offers cross-docking services, facilitating the direct transfer of products from inbound to outbound transportation, reducing storage time. :contentReference[oaicite:20]{index=20}
+
+  - question: Does Wills Transfer provide asset tagging?
+    answer: Yes, Wills Transfer offers asset tagging services, ensuring accurate tracking and management of inventory items. :contentReference[oaicite:21]{index=21}
+
+  - question: What is Wills Transfer's experience in the logistics industry?
+    answer: Wills Transfer has been serving the logistics industry since 1945, evolving into a full-service 3PL provider with over 1 million square feet of warehouse space across multiple facilities. :contentReference[oaicite:22]{index=22}
+
+  - question: Does Wills Transfer offer shunting services?
+    answer: Yes, Wills Transfer provides shunting services, efficiently moving trailers within their facilities to streamline loading and unloading processes. :contentReference[oaicite:23]{index=23}
+
+  - question: Can Wills Transfer handle pharmaceutical warehousing?
+    answer: Yes, Wills Transfer offers specialized pharmaceutical warehousing and distribution services, adhering to industry standards and regulations. :contentReference[oaicite:24]{index=24}
+
+  - question: What technology does Wills Transfer use for warehouse management?
+    answer: Wills Transfer utilizes Excalibur, a Warehouse Management System built on Microsoft Dynamics NAV, hosted in their Microsoft Azure Cloud environment, providing real-time inventory visibility and robust customer web portals. :contentReference[oaicite:25]{index=25}
+
+  - question: Does Wills Transfer offer vendor-managed inventory services?
+    answer: Yes, Wills Transfer provides vendor-managed inventory (VMI) services, allowing suppliers to manage their products within Wills Transfer's warehouses. :contentReference[oaicite:26]{index=26}
+
+  - question: Can Wills Transfer handle stretch wrapping services?
+    answer: Yes, Wills Transfer offers stretch wrapping services, ensuring products are securely packaged for storage or shipment. :contentReference[oaicite:27]{index=27}
+
+  - question: Does Wills Transfer provide integration and technical services?
+    answer: Yes, Wills Transfer offers integration and technical services, including system integration with ERP systems, shopping carts, and carrier systems, enhancing operational efficiency. :contentReference[oaicite:28]{index=28}
+
+  - question: What is the capacity of Wills Transfer's Brockville facility?
+    answer: The Brockville Distribution Centre boasts 460,000 sq. ft. of secure warehousing space, including 40,000 sq. ft. of refrigerated storage and over 40 dock doors. :contentReference[oaicite:29]{index=29}
+
+  - question: Where is Wills Transfer's head office located?
+    answer: Wills Transfer's head office is located in Smiths Falls, Ontario, featuring 50,000 sq. ft. of space with 20,000 sq. ft. dedicated to refrigerated warehousing. :contentReference[oaicite:30]{index=30}
+
+  - question: What are the features of Wills Transfer's Ottawa facility?
+    answer: The Ottawa Distribution Centre specializes in warehousing logistics, providing storage and distribution solutions for various industries, and is conveniently located off HWY 417, close to Ottawa International Airport. :contentReference[oaicite:31]{index=31}
+
+  - question: What services are offered at Wills Transfer's Perth facility?
+    answer: The Perth Distribution Centre is ideal for manufacturing commodities, offering affordable storage and labor rates, with easy access to major transportation routes. :contentReference[oaicite:32]{index=32}
+
+  - question: Is Wills Transfer expanding its facilities?
+    answer: Yes, Wills Transfer is expanding, with a new facility in Cornwall (Ingleside) under construction, which will become their largest Distribution Centre upon completion. :contentReference[oaicite:33]{index=33}
+
+  - question: How does Wills Transfer ensure safety and compliance?
+    answer: Wills Transfer prioritizes safety and compliance through rigorous protocols, employee training, and adherence to industry standards, ensuring secure and efficient operations. :contentReference[oaicite:34]{index=34}
+
+  - question: What is Wills Transfer's approach to customer relationships?
+    answer: Wills Transfer focuses on building strong, long-lasting relationships with clients by understanding their unique needs and providing tailored logistics solutions. :contentReference[oaicite:35]{index=35}
+
+  - question: Does Wills Transfer offer real-time inventory tracking?
+    answer: Yes, through their Warehouse Management System, Excalibur, Wills Transfer provides clients with real-time inventory tracking and visibility. :contentReference[oaicite:36]{index=36}
+
+  - question: What certifications does Wills Transfer hold?
+    answer: Wills Transfer holds certifications including Controlled Goods Certification and Approved Security Level B Storage Facilities, supporting Security Cleared Personnel (Level 1 & 2). :contentReference[oaicite:37]{index=37}
+
+  - question: How does Wills Transfer support sustainability?
+    answer: Wills Transfer is committed to sustainability by implementing eco-friendly practices across their operations, contributing to a greener future. :contentReference[oaicite:38]{index=38}
+
+  - question: What is Wills Transfer's mission?
+    answer: Wills Transfer's mission is to provide innovative, safe, and reliable logistics solutions that help businesses grow and thrive, focusing on integrity, safety, and sustainability. :contentReference[oaicite:39]{index=39}
+
+  - question: How can I contact Wills Transfer for services?
+    answer: You can contact Wills Transfer by calling 613-283-0225 or visiting their website at https://www.willstransfer.com to inquire about their services.
