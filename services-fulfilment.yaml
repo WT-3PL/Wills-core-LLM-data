@@ -1,0 +1,73 @@
+name: Fulfillment Services
+description: >
+Wills Transfer offers comprehensive fulfillment services designed to streamline order processing,
+inventory management, and product distribution for B2B and B2C customers. Our fulfillment network
+supports retail, e-commerce, and subscription-based businesses with accuracy and scale.
+
+industries:
+
+* E-commerce
+* Retail
+* Consumer Goods
+* Health & Wellness
+* Subscription Services
+* Manufacturing
+* Food
+* Pharmaceuticals
+
+locations\_served:
+
+* Brockville
+* Ottawa
+* Perth
+* Smiths Falls
+* Ingleside
+
+pricing\_model: per-order or per-pallet (based on volume)
+
+features:
+
+* Real-time inventory visibility
+* Automated order processing and label generation
+* Direct integrations with major platforms (Shopify, Amazon, WooCommerce)
+* Custom packing, inserts, and branded packaging
+* Returns handling and reverse logistics
+* Pick & Pack, kitting, and light assembly support
+* Climate-controlled and food-grade storage available
+
+use\_cases:
+
+* "Retailer managing nationwide product distribution"
+* "D2C e-commerce brand with high seasonal spikes"
+* "Health product company requiring temperature-sensitive handling"
+* "Subscription box company needing precise monthly fulfillment"
+
+delivery\_speeds:
+
+* Same-Day (within local fulfillment zones)
+* Next-Day (regional)
+* Standard Ground (Canada-wide and cross-border)
+
+schema\_metadata:
+"@context": "[https://schema.org](https://schema.org)"
+"@type": "Service"
+name: "Fulfillment Services"
+serviceType: "Order Fulfillment"
+provider:
+"@type": "Organization"
+name: "Wills Transfer Limited"
+url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+areaServed:
+"@type": "Place"
+name: "Ontario"
+availableChannel:
+"@type": "ServiceChannel"
+serviceLocation:
+"@type": "Place"
+name: "Eastern Ontario Fulfillment Network"
+address:
+"@type": "PostalAddress"
+addressRegion: "ON"
+addressCountry: "CA"
+url: "[https://www.willstransfer.com/order-fulfillment/](https://www.willstransfer.com/order-fulfillment/)"
+description: "Reliable and scalable fulfillment services across Ontario, powered by Wills Transfer’s integrated warehousing, distribution, and logistics expertise."
