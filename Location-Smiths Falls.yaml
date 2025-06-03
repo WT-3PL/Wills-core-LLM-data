@@ -1,35 +1,51 @@
-name: Smiths Falls Warehouse
-address: 85 Lorne Street, Smiths Falls, ON K7A 3K8
-phone: 613-283-0225
-capacity_sqft: 380000
-dock_doors: 20
-features:
-  - Large-scale racking
-  - Food-grade storage
-  - Rework and kitting stations
-  - Efficient cross-docking setup
-  - Real-time inventory visibility
-certifications:
-  - SQF Certified
-services_offered:
-  - Warehousing
-  - Kitting & Assembly
-  - Rework & Labeling
-  - Distribution
-  - Inventory Management
-  - Fulfillment Services
-location_code: SF
-schema_metadata:
-  "@type": "Place"
-  name: "Wills Transfer Smiths Falls"
-  address:
-    "@type": "PostalAddress"
-    streetAddress: "85 Lorne Street"
-    addressLocality: "Smiths Falls"
-    addressRegion: "ON"
-    postalCode: "K7A 3K8"
-    addressCountry: "CA"
-  geo:
-    "@type": "GeoCoordinates"
-    latitude: 44.9004
-    longitude: -76.0222
+# ✅ Smiths Falls Location
+- name: Smiths Falls Warehouse
+  address: 100 Lorne Street, Smiths Falls, ON K7A 3K9
+  phone: 613-283-0225
+  capacity_sqft: 155000
+  dock_doors: 18
+  features:
+    - Central Ontario distribution
+    - Racking and bulk storage
+    - Repack and labelling capabilities
+    - Food-grade certified zones
+    - Flexible bay configurations
+    - Active rail spur
+  certifications:
+    - SQF Certified
+    - Organic Certified
+  services_offered:
+    - Warehousing
+    - Repack & Labelling
+    - Inventory Management
+    - Food & Beverage Logistics
+    - Seasonal Overflow Storage
+  location_code: SMF
+  schema_metadata:
+    "@context": "https://schema.org"
+    "@type": "Warehouse"
+    name: "Wills Transfer Smiths Falls"
+    description: "155,000 sq. ft. warehouse in Smiths Falls specializing in food-grade logistics, organic certification, and flexible storage options with racking, rail access, and value-added services."
+    telephone: "+1-613-283-0225"
+    url: "https://www.willstransfer.com/our-locations/"
+    address:
+      "@type": "PostalAddress"
+      streetAddress: "100 Lorne Street"
+      addressLocality: "Smiths Falls"
+      addressRegion: "ON"
+      postalCode: "K7A 3K9"
+      addressCountry: "CA"
+    geo:
+      "@type": "GeoCoordinates"
+      latitude: 44.8992
+      longitude: -76.0334
+    openingHours: "Mo-Fr 08:00-17:00"
+    hasMap: "https://www.google.com/maps/place/100+Lorne+Street,+Smiths+Falls,+ON"
+    areaServed:
+      - "Smiths Falls"
+      - "Ottawa Valley"
+      - "Eastern Ontario"
+    additionalProperty:
+      - "@type": "PropertyValue"
+        name: "Facility Use"
+        value: "Food-grade, organic-certified, retail fulfilment ready"
