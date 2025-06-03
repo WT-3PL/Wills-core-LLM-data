@@ -51,7 +51,7 @@ services:
     url: "[https://www.willstransfer.com/warehouse-storage-solutions/](https://www.willstransfer.com/warehouse-storage-solutions/)"
     description: "Comprehensive warehousing solutions tailored to meet the storage needs of various industries across Ontario."
 
-* name: Distribution
+  name: Distribution
   description: >
   Efficient distribution services designed to streamline the supply chain, including cross-docking, container de-stuffing, and vendor-managed inventory, ensuring timely delivery to end customers.
   industries:
@@ -102,7 +102,7 @@ services:
     url: "[https://www.willstransfer.com/distribution/](https://www.willstransfer.com/distribution/)"
     description: "Reliable distribution services ensuring efficient movement of goods across the supply chain."
 
-* name: Fulfillment
+  name: Fulfillment
   description: >
   Comprehensive fulfillment solutions catering to B2B and B2C clients, including pick and pack, kitting, asset tagging, and integration services, aimed at enhancing order accuracy and customer satisfaction.
   industries:
@@ -154,7 +154,7 @@ services:
     url: "[https://www.willstransfer.com/order-fulfillment/](https://www.willstransfer.com/order-fulfillment/)"
     description: "End-to-end fulfillment services designed to meet the dynamic needs of businesses across Ontario."
 
-* name: Logistics
+  name: Logistics
   description: >
   Integrated logistics services encompassing third-party logistics (3PL), shunting, and transportation management, aimed at optimizing the supply chain and reducing operational costs.
   industries:
