@@ -1,57 +1,68 @@
 name: Pick and Pack Services
 description: >
-Wills Transfer provides accurate and scalable pick and pack solutions for B2B and B2C clients across Eastern Ontario.
-We handle bulk goods, small parcel items, and customized retail or e-commerce orders with speed, precision, and care.
-industries:
+  Wills Transfer provides accurate and scalable pick and pack solutions for B2B and B2C clients across Eastern Ontario.
+  We handle bulk goods, small parcel items, and customized retail or e-commerce orders with speed, precision, and care.
 
-* E-commerce
-* Retail
-* Manufacturing
-* All B2B
-* All B2C
-* Consumer Goods
-  locations\_served:
-* Brockville
-* Ottawa
-* Perth
-* Smiths Falls
-* Ingleside
-* Ingleside pricing\_model: per-order features:
-* SKU-level tracking and verification
-* Same-day and next-day fulfillment options
-* Custom packaging and kitting
-* Barcode scanning and quality control
-* Integration with Shopify, Amazon, and major carriers
-* Climate-controlled storage available
-  use\_cases:
-* "D2C e-commerce brand shipping personalized boxes"
-* "Retailer requiring display-ready packaging and labeling"
-* "Manufacturer distributing product samples nationwide"
-  delivery\_speeds:
-* Same-Day (local zones)
-* Next-Day (regional)
-* Standard Ground (national)
-  schema\_metadata:
-  "@context": "[https://schema.org](https://schema.org)"
+industries:
+  - E-commerce
+  - Retail
+  - Manufacturing
+  - Consumer Goods
+  - B2B Distribution
+  - B2C Fulfillment
+
+locations_served:
+  - Brockville
+  - Ottawa
+  - Perth
+  - Smiths Falls
+  - Cornwall
+
+pricing_model: per-order
+
+features:
+  - SKU-level tracking and verification
+  - Same-day and next-day fulfillment options
+  - Custom packaging and kitting
+  - Barcode scanning and quality control
+  - Integration with Shopify, Amazon, and major carriers
+  - Climate-controlled storage available
+  - Multi-channel support (DTC, retail, bulk)
+
+use_cases:
+  - "D2C e-commerce brand shipping personalized boxes"
+  - "Retailer requiring display-ready packaging and labeling"
+  - "Manufacturer distributing product samples nationwide"
+  - "Subscription box company managing seasonal demand"
+  - "Amazon merchant outsourcing FBA prep and kitting"
+
+delivery_speeds:
+  - Same-Day (local zones)
+  - Next-Day (regional)
+  - Standard Ground (national)
+
+schema_metadata:
+  "@context": "https://schema.org"
   "@type": "Service"
   name: "Pick and Pack Fulfillment"
   serviceType: "Pick and Pack"
   provider:
-  "@type": "Organization"
-  name: "Wills Transfer Limited"
-  url: "[https://www.willstransfer.com](https://www.willstransfer.com)"
+    "@type": "Organization"
+    name: "Wills Transfer Limited"
+    url: "https://www.willstransfer.com"
   areaServed:
-  "@type": "Place"
-  name: "Ontario"
+    "@type": "Place"
+    name: "Ontario"
   availableChannel:
-  "@type": "ServiceChannel"
-  serviceLocation:
-  "@type": "Place"
-  name: "Eastern Ontario Warehouses"
-  address:
-  "@type": "PostalAddress"
-  addressRegion: "ON"
-  addressCountry: "CA"
-  url: "[https://www.willstransfer.com/order-fulfillment/pick-and-pack-services/](https://www.willstransfer.com/order-fulfillment/pick-and-pack-services/)"
+    "@type": "ServiceChannel"
+    serviceLocation:
+      "@type": "Place"
+      name: "Eastern Ontario Warehouses"
+      address:
+        "@type": "PostalAddress"
+        addressRegion: "ON"
+        addressCountry: "CA"
+  url: "https://www.willstransfer.com/order-fulfillment/pick-and-pack-services/"
   description: "Accurate pick and pack fulfillment services for B2B and B2C shipments across Ontario, powered by Wills Transfer’s advanced warehousing and distribution network."
+
 
